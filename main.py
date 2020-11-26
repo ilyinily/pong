@@ -47,7 +47,7 @@ while game_continues:
     bouncey.bounce(left, right)
     playground.update()
     time.sleep(0.01)
-    if upper_drawer.score >= 3 or bottom_drawer.score >= 3:
+    if upper_drawer.score >= 25 or bottom_drawer.score >= 25:
         game_continues = False
 
 announcer.write(arg="The game is over as 25 balls were missed", font=("Verdana", 25, "bold"))
